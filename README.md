@@ -1,7 +1,12 @@
+# api_final_yatube
+Что такое api_final_yatube?
+Это `API` предназначенное для добавления, изменения, удаления, а так же редактирования записей.
+
+
 ## Как запустить проект:
 Клонировать репозиторий и перейти в него в командной строке:
 ```
-git clone https://github.com/yandex-praktikum/kittygram.git
+git clone git@github.com:sntchweb/api_final_yatube.git
 ```
 Cоздать и активировать виртуальное окружение:
 ```
