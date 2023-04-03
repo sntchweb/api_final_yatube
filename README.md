@@ -17,18 +17,18 @@ source env/bin/activate
 ```
 Установить зависимости из файла requirements.txt:
 ```
-python -m pip install --upgrade pip
+py -m pip install --upgrade pip
 ```
 ```
 pip install -r requirements.txt
 ```
 Выполнить миграции:
 ```
-python manage.py migrate
+py manage.py migrate
 ```
 Запустить проект:
 ```
-python manage.py runserver
+py manage.py runserver
 ```
 
 ## Примеры запросов и ответов:
