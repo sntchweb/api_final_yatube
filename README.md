@@ -10,14 +10,14 @@ git clone git@github.com:sntchweb/api_final_yatube.git
 ```
 Cоздать и активировать виртуальное окружение:
 ```
-python3 -m venv env
+py -m venv env
 ```
 ```
 source env/bin/activate
 ```
 Установить зависимости из файла requirements.txt:
 ```
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 ```
 pip install -r requirements.txt
@@ -29,4 +29,32 @@ python manage.py migrate
 Запустить проект:
 ```
 python manage.py runserver
+```
+
+## Примеры запросов и ответов:
+```
+Запрос: http://127.0.0.1:8000/api/v1/posts/1
+Ответ:
+{
+	"id": 1,
+	"author": "artem",
+	"text": "test 1st text",
+	"pub_date": "2023-04-03T05:58:41.224351Z",
+	"image": null,
+	"group": null
+}
+
+```
+```
+Запрос: http://127.0.0.1:8000/api/v1/posts/1/comments/
+Ответ:
+[
+	{
+		"id": 1,
+		"author": "artem",
+		"text": "test comment text",
+		"created": "2023-04-03T06:57:15.561793Z",
+		"post": 1
+	}
+]
 ```
