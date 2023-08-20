@@ -1,3 +1,4 @@
+## Описание проекта:
 `api_final_yatube` представляет собой `API` для проекта Yatube.
 Это `API` предназначенное для добавления, удаления, комментирования, а так же редактирования добавленных записей.
 
@@ -15,9 +16,6 @@ py -m venv env
 source env/bin/activate
 ```
 Установить зависимости из файла requirements.txt:
-```
-py -m pip install --upgrade pip
-```
 ```
 pip install -r requirements.txt
 ```
@@ -57,3 +55,7 @@ py manage.py runserver
 	}
 ]
 ```
+## Стек технологий:
+- Python
+- Django Rest Framework
+- SQLite
