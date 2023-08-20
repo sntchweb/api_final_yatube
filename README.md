@@ -59,3 +59,7 @@ py manage.py runserver
 - Python
 - Django Rest Framework
 - SQLite
+
+## Автор 
+Лашин Артём
+
